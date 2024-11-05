@@ -1,12 +1,13 @@
 package it.unibo;
 
 public class Test {
-//    public static void main(String[] args) {
-//        Animal squirrel = new Squirrel();
-//        Animal kangaroo = new Kangaroo();
-//        Animal siameseCat = new SiameseCat();
-//        Animal koratCat = new KoratCat();
-//
+
+    public static void main(String[] args) {
+      Animal squirrel = new Squirrel();
+      Animal kangaroo = new Kangaroo();
+      Animal siameseCat = new SiameseCat();
+      Animal koratCat = new KoratCat();
+
 //        System.out.println("Kangaroo weight more than cats: " + (
 //            kangaroo.averageWeight() > siameseCat.averageWeight() &&
 //            kangaroo.averageWeight() > koratCat.averageWeight()
@@ -30,5 +31,5 @@ public class Test {
 //        System.out.println("Korat cat can eat squirrel: " + koratCat.canEat(squirrel));
 //        System.out.println("Korat cat can't eat kangaroo: " + !koratCat.canEat(kangaroo));
 //        System.out.println("Korat cat can't eat vegetables: " + !koratCat.canEatVegetables());
-//    }
+   }
 }
